@@ -2,6 +2,8 @@ package chap06;
 
 public class StudentTest {
 
+	
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Student st1 = new Student("¹ÚÁö¿¹",1204, 123456);
