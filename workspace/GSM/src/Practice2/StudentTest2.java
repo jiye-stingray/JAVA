@@ -23,20 +23,21 @@ public class StudentTest2 {
 			System.out.print(score);
 		}
 		for(int i = 0; i < scores.length; i++) {
-			if(i >= 100) {
+			int temp = scores[i]/10;
+			if(temp >= 10) {
 				System.out.println((i+1) + "번 학생의 등급은 A입니다"); 
 			}
 				
-			else if(i < 90) {
+			else if((temp <= 9) && (temp >= 8)) {
 				System.out.println((i+1) + "번 학생의 등급은 B입니다");
 			}
-			else if(i < 80) {
+			else if((temp < 8) && (temp >= 7)) {
 				System.out.println((i+1) + "번 학생의 등급은 C입니다");
 			}
-			else if(i < 70){
+			else if(temp < 7 && (temp >= 6)){
 				System.out.println((i+1) + "번 학생의 등급은 D입니다");
 			}
-			else if(i < 60) {
+			else if(temp < 6) {
 				System.out.println((i+1) + "번 학생의 등급은 E입니다");
 			}
 		}

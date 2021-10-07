@@ -10,6 +10,7 @@ public class Student extends People {
 		// TODO Auto-generated constructor stub
 	}
 	
+	@Override
 	void fall() {
 		System.out.println("나는 사람이면서 학생입니다");
 	}
