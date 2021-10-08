@@ -1,6 +1,7 @@
 package chap06;
 
 public class Circle {
+	@SuppressWarnings("unused")
 	private void secret() {
 		System.out.println("Ω≤! ∫Òπ–¿Ã¥Ÿ");
 	}

@@ -8,7 +8,7 @@ class Ball1 extends Circle111{
 	
 
 	@Override
-	void findArea() {
+	public void findArea() {
 		System.out.println(Math.round(4*3.14*r*r));
 	}
 	

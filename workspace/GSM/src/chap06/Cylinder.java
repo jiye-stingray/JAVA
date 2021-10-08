@@ -7,7 +7,7 @@ class Cylinder1 extends Circle111{
 	}
 	
 	@Override
-	void findArea() {
+	public void findArea() {
 		System.out.println(Math.round((2*3.14*r*r)+(2*3.14*r*h)));
 	}
 	
