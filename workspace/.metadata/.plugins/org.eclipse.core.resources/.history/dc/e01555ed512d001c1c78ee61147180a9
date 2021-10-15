@@ -1,0 +1,19 @@
+package Practice3;
+class point{
+	private int x,y;
+	
+	void toString() {
+		System.out.println("x: "+x+" y: "+y);
+	}
+}
+class MovablePoint extends point{
+	private int xSpeed , ySpeed;
+}
+public class PointTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package Practice3;
+class Phone{
+	protected String owner;
+
+}
+class Telephone extends Phone{
+	
+}
+class Smartphone extends Telephone {
+	
+}
+
+public class PhoneTest {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package sangsi;
+
+public class NumOfCount {
+
+	public static void main(String[] args) {
+		int num[] = {1,9,3,2,4,3,2,9,1,5};
+		for(int n : num)
+		System.out.println(num[n]);
+	}
+
+}

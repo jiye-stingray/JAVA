@@ -1,0 +1,49 @@
+package sangsi;
+
+class Sports{
+	private String name;
+	
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	void rule() {
+		System.out.println("규칙");
+	}
+	public Sports(String name) {
+		// TODO Auto-generated constructor stub
+		this.name;
+		
+	}
+}
+
+class BaseBall extends Sports{
+	int player = 9;
+	
+	
+
+	void rule() {
+		System.out.println("야구 규칙을 따른다");
+	}
+}
+class PingPong extends Sports{
+	String team = "복식";
+	
+	void rule() {
+		System.out.println("탁구 규칙을 따름");
+	}
+}
+
+public class SportTest {
+
+	public static void main(String[] args) {
+		Sports[] s = {new BaseBall("BaseBall"),new PingPong("PingPong")};
+		
+		System.out.println("경기종목: "+s[0].name);
+	}
+
+}

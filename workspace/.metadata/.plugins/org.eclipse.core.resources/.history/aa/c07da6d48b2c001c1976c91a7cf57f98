@@ -1,0 +1,27 @@
+package Practice3;
+class GoodGirl extends Girl{
+	void show() {
+		System.out.println("그녀는 자바를 잘안다");
+	}
+}
+class BestGirl extends GoodGirl {
+	void show() {
+		System.out.println("그녀는 자바를 무지하게 잘안다");
+	}
+}
+class Girl{
+	
+}
+
+public class GirlTest {
+
+	public static void main(String[] args) {
+		Girl g1 = new Girl();
+		Girl g2 = new GoodGirl();
+		GoodGirl gg = new BestGirl();
+		
+		
+		gg.show();
+	}
+
+}

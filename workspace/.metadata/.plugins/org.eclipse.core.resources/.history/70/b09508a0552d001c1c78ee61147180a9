@@ -1,0 +1,30 @@
+package Practice3;
+class Phone{
+	protected String owner;
+
+	void talk() {
+		System.out.println(owner+"가 통화중이다");
+	}
+}
+class Telephone extends Phone{
+	private String when;
+	void autoAnswering() {
+		System.out.println(owner+"가 없다."+when+"가 없다");
+	}
+	
+}
+class Smartphone extends Telephone {
+	private String game;
+	void SmartPhone() {
+		System.out.println(owner+"가 "+game+"게임을 하는중이다");
+	}
+}
+
+public class PhoneTest {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

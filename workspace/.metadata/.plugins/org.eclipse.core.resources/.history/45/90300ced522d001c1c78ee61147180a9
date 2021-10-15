@@ -1,0 +1,19 @@
+package Practice3;
+class Parent{
+	String name = "¿µÁ¶";
+	void print() {
+		System.out.println(name);
+	}
+}
+class Child{
+	
+}
+
+public class OvershadowTest {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

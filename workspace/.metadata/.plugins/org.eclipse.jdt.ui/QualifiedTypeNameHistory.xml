@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="Practice.Car"/>
+    <fullyQualifiedTypeName name="chap06.DmCellPhone"/>
+    <fullyQualifiedTypeName name="com.sun.org.apache.xml.internal.dtm.ref.sax2dtm.SAX2DTM2"/>
+    <fullyQualifiedTypeName name="chap06.One"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

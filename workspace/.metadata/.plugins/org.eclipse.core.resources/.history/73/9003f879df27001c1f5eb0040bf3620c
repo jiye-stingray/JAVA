@@ -1,0 +1,13 @@
+package chap06;
+
+public class InstanceofDemo {
+
+	public static void main(String[] args) {
+		Stud s = new Stud();
+		Person p = new Person();
+		
+		System.out.println(s instanceof Person);
+
+	}
+
+}

@@ -1,0 +1,29 @@
+package Practice3;
+
+class Vehicle{
+	String color;
+	int speed;
+	
+	void show() {
+		
+	}
+	
+	
+}
+class Car extends Vehicle{
+	int displacement;
+	int gears;
+	
+	void show() {
+		
+	}
+}
+
+public class OverrideTest {
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

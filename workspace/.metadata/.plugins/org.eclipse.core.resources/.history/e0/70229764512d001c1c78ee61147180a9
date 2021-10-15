@@ -1,0 +1,15 @@
+package Practice3;
+class point{
+	private int x,y;
+}
+class MovablePoint{
+	private int xSpeed , ySpeed;
+}
+public class PointTest extends Point {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

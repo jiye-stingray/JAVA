@@ -1,0 +1,23 @@
+package Practice3;
+class Person{
+	private String name;
+	private int age;
+	
+}
+class Student extends Person{
+	private int number;
+	
+}
+class ForegnStudents extends Student{
+	private String country;
+	
+}
+
+public class PersonTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

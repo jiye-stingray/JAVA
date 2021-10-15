@@ -1,0 +1,27 @@
+package Practice3;
+class point{
+	private int x,y;
+	
+	public String toString() {
+		return "(x,y) :" + "("+x+","+y+")";
+	}
+}
+class MovablePoint extends point{
+	private int xSpeed , ySpeed;
+
+	@Override
+	public String toString() {
+		
+		return super.toString() + " 스피드 x: "+xSpeed+" 스피드 y: "+ySpeed;
+	}
+	
+	
+}
+public class PointTest {
+
+	public static void main(String[] args) {
+		Point p = new Point(2,3);
+
+	}
+
+}

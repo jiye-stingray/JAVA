@@ -1,0 +1,21 @@
+package chap06;
+class Grade{
+	int math;
+	int kor;
+	int eng;
+	int Sum() {
+		
+	}
+	double avg() {
+		
+	}
+}
+
+public class GradeTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
