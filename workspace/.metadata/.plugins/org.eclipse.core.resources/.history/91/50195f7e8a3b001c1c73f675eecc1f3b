@@ -1,0 +1,41 @@
+package chap01;
+class School extends Object{
+	
+	int Add(int a, int b) {
+		return a + b;
+	}
+	
+	double Add(double a, double b) {
+		return a + b;
+	}
+	
+	double Add(double a, double b,int c) {
+		return a + b + c;
+	}
+	
+	
+	public String toString() {
+		return "박지예";
+	}
+
+
+
+	
+
+
+	
+}
+
+public class ObjectEx {
+
+	public static void main(String[] args) {
+		School s = new School();
+		
+		System.out.println("내이름은 "+s.toString());
+		System.out.println(s.Add(1, 2));
+		System.out.println(s.Add(1.0, 2.1));
+		System.out.println(s.Add(1.1,2.2,3));
+
+	}
+
+}

@@ -1,0 +1,64 @@
+package chap01;
+class home{
+	
+}
+
+class School extends Object{
+	
+	String name;
+	static int i;
+	static int width = 100;
+	static int height = 200;
+	
+	School(String name) {
+		this.name = name;
+		i++;
+		
+	}
+
+	School() {
+		
+	}
+
+	static int wide() {
+		return width * height;
+	}
+	
+	int Add(int a, int b) {
+		return a + b;
+	}
+	
+	double Add(double a, double b) {
+		return a + b;
+	}
+	
+	double Add(double a, double b,int c) {
+		return a + b + c;
+	}
+	
+	
+	public String toString() {
+		return "박지예";
+	}
+
+}
+
+public class ObjectEx {
+
+	public static void main(String[] args) {
+		School s = new School();
+		School s1 = new School("광주");
+		
+		System.out.println(s1.name+"소프트웨어마이스터고");
+		System.out.println("내이름은 "+s.toString());
+		System.out.println(s.Add(1, 2));
+		System.out.println(s.Add(1.0, 2.1));
+		System.out.println(s.Add(1.1,2.2,3));
+		
+		System.out.println(School.width);
+		System.out.println(School.height);
+		System.out.println(School.wide());
+
+	}
+
+}

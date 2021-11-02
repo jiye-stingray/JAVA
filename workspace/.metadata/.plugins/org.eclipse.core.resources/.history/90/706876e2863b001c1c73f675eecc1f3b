@@ -1,0 +1,18 @@
+package chap01;
+
+public class DataType {
+
+	public static void main(String[] args) {
+		char var1 = 'a';
+		byte var2 = 12;
+		short var3 = 12;
+		int var4 = 12;
+		
+		System.out.println(var1);
+		System.out.println(var2);
+		System.out.println(var3);
+		System.out.println(var4);
+
+	}
+
+}

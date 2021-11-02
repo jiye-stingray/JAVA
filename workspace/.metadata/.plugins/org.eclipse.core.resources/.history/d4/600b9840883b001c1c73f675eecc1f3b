@@ -1,0 +1,19 @@
+package chap01;
+class School{
+	
+	public String toString() {
+		return "¹ÚÁö¿¹";
+	}
+}
+
+public class ObjectEx {
+
+	public static void main(String[] args) {
+		School s = new School();
+		
+		System.out.println(s.toString());
+	
+
+	}
+
+}

@@ -1,0 +1,19 @@
+package chap01;
+class School{
+	
+	public String toString() {
+		return "박지예";
+	}
+}
+
+public class ObjectEx {
+
+	public static void main(String[] args) {
+		School s = new School();
+		
+		System.out.println("내이름은 "+s.toString());
+	
+
+	}
+
+}

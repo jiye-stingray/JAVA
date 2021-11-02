@@ -1,0 +1,17 @@
+package chap01;
+class School{
+	String toString() {
+		return "¹ÚÁö¿¹";
+	}
+}
+
+public class ObjectEx {
+
+	public static void main(String[] args) {
+		School s = new School();
+		
+	
+
+	}
+
+}
