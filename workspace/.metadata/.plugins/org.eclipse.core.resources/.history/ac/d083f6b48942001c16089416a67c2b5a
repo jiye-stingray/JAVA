@@ -1,0 +1,22 @@
+package chap10;
+import java.util.Vector;
+class Point{
+	private final int x, y;
+	public Point(int x, int y) {
+		this.x = x; this.y = y;
+	}
+	public String toString() {
+		return "(" + x + ","+y+")";
+	}
+}
+
+public class PointTest {
+
+	public static void main(String[] args) {
+		Vector<Point> v = new Vector<~>();
+		
+		
+
+	}
+
+}

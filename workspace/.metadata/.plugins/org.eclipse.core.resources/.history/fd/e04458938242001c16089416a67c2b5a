@@ -1,0 +1,9 @@
+package chap10;
+
+interface Box<T>{
+	void addItem(T item, int index);
+}
+
+public class Test {
+
+}

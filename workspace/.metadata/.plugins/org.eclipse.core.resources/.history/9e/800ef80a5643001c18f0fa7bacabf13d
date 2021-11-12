@@ -1,0 +1,19 @@
+package chap11;
+
+import java.util.List;
+import java.util.Arrays;
+
+
+public class ListDemo {
+
+	public static void main(String[] args) {
+		String[] name1 = {"»ç½¿", "È£¶ûÀÌ", "¹Ù´ÙÇ¥¹ü","°õ"};
+		
+		List<String> list = Arrays.asList(name1);
+		list.set(1, "¾Þ¹«»õ");
+		for(String s : list)
+			System.out.print(s + "\t");
+
+	}
+
+}

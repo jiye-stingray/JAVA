@@ -1,0 +1,22 @@
+package chap10;
+
+interface Box<T>{
+	void addItem(T item, int index);
+}
+
+class Item<T> implements Box<T>{
+	private final T[] array;
+	
+	public Item() {
+		array = (T[]) new Object[10];
+	}
+	
+	@Override
+	public void addItem(T item, int index) {
+		array[index] = item;
+	}
+}
+
+public class Test {
+
+}

@@ -1,0 +1,13 @@
+package chap11;
+
+import java.util.List;
+import java.util.Queue;
+
+public class QueueDemo {
+
+	public static void main(String[] args) {
+		Queue<String> q = new Liked<List>();
+
+	}
+
+}
